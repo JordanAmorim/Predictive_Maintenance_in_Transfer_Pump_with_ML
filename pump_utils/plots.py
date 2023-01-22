@@ -180,7 +180,7 @@ def corr_plot(data, sensors=False, th=False):
     ax.grid()
     ax.legend(prop={'size':20})
     ax.set_xlabel('Variáveis', size=20)
-    ax.set_ylabel('Correalações', size=20)
+    ax.set_ylabel('Correlações', size=20)
     ax.tick_params(labelsize=20, rotation=90)
 
 def mvar_corr(data, sensors=False, th=False, report=False):
